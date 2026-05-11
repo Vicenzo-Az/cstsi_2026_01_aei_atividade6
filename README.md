@@ -68,8 +68,6 @@ A landing foi pensada para seguir a mesma linguagem visual da dashboard, mas com
 - blocos de apoio com animações declarativas e hover suave
 - textos placeholders em lorem ipsum para facilitar futuras substituições
 
-O detalhamento completo das animações, cores, bibliotecas e estilizações está em [LANDING_PAGE_STYLES.md](LANDING_PAGE_STYLES.md).
-
 ---
 
 ## Integração com a API
