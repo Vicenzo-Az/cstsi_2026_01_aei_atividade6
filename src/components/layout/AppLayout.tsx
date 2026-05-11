@@ -1,12 +1,8 @@
-import type { ReactNode } from "react";
+import { Outlet } from "react-router-dom";
 import { Sidebar } from "./Sidebar";
 import { Topbar } from "./Topbar";
 
-type Props = {
-  children: ReactNode;
-};
-
-export function AppLayout({ children }: Props) {
+export function AppLayout() {
   return (
     <div className="flex h-screen bg-muted/40 text-foreground">
       <Sidebar />
@@ -14,7 +10,9 @@ export function AppLayout({ children }: Props) {
       <div className="flex flex-col flex-1">
         <Topbar />
 
-        <main className="flex-1 overflow-y-auto p-8">{children}</main>
+        <main className="flex-1 overflow-y-auto p-8">
+          <Outlet />
+        </main>
       </div>
     </div>
   );

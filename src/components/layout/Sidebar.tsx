@@ -21,7 +21,7 @@ export function Sidebar() {
 
       <nav className="space-y-1">
         <NavLink
-          to="/"
+          to="/dashboard"
           className={({ isActive }) =>
             `${baseStyle} ${
               isActive
