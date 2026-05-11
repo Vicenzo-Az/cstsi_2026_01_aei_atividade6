@@ -132,7 +132,7 @@ export function LandingShowcaseCarousel({ slides }: Props) {
                   <div className="grid gap-3">
                     <div className="rounded-[1.2rem] border border-white/10 bg-slate-950/60 p-4">
                       <div className="mb-3 flex items-center justify-between text-xs text-white/55">
-                          <span>Lorem ipsum</span>
+                        <span>Lorem ipsum</span>
                         <span>+18.4%</span>
                       </div>
 

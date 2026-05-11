@@ -110,15 +110,30 @@ const featureCards = [
 const configCards = [
   {
     title: "Lorem ipsum",
-    details: ["lorem ipsum dolor sit amet", "consectetur adipiscing elit", "sed do eiusmod tempor", "incididunt ut labore"],
+    details: [
+      "lorem ipsum dolor sit amet",
+      "consectetur adipiscing elit",
+      "sed do eiusmod tempor",
+      "incididunt ut labore",
+    ],
   },
   {
     title: "Dolor sit amet",
-    details: ["dolor sit amet consectetur", "adipiscing elit sed do", "eiusmod tempor incididunt", "ut labore et dolore"],
+    details: [
+      "dolor sit amet consectetur",
+      "adipiscing elit sed do",
+      "eiusmod tempor incididunt",
+      "ut labore et dolore",
+    ],
   },
   {
     title: "Consectetur elit",
-    details: ["consectetur elit sed do", "eiusmod tempor incididunt", "ut labore et dolore", "magna aliqua lorem ipsum"],
+    details: [
+      "consectetur elit sed do",
+      "eiusmod tempor incididunt",
+      "ut labore et dolore",
+      "magna aliqua lorem ipsum",
+    ],
   },
 ];
 
@@ -188,7 +203,8 @@ export default function Landing() {
                   transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
                   className="max-w-2xl text-base leading-8 text-white/70 sm:text-lg"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </motion.p>
               </div>
 
@@ -397,7 +413,8 @@ export default function Landing() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </h2>
               <p className="text-sm leading-7 text-white/65 sm:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
@@ -485,7 +502,9 @@ export default function Landing() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </h2>
                   <p className="max-w-xl text-sm leading-7 text-white/70 sm:text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
                   </p>
                 </div>
               </div>
@@ -504,7 +523,9 @@ export default function Landing() {
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </h2>
                     <p className="text-sm leading-7 text-white/65 sm:text-base">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
                     </p>
                   </div>
 
